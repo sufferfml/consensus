@@ -1,0 +1,9 @@
+Consensus is maintained by sufferfml and contributors.
+
+OpenAI, Codex, Anthropic, Claude, and GitHub are names belonging to their
+respective owners. This project is not affiliated with or endorsed by them.
+Their CLIs and services are not included in this distribution.
+
+The runtime Python helpers use the standard library only. GitHub Actions used
+for CI are referenced, not vendored. No proprietary model weights, provider
+credentials, or real discussion transcripts are included.

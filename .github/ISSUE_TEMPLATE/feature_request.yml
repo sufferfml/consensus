@@ -1,0 +1,15 @@
+name: Feature request / 功能建议
+description: Describe a problem and the workflow you want to improve.
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Problem / 要解决的问题
+      description: Explain your current workflow and what is missing.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Proposed behavior / 期望行为
+      description: Include alternatives and whether the change affects local or GitHub mode.

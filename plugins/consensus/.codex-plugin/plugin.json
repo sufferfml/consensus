@@ -1,0 +1,26 @@
+{
+  "name": "consensus",
+  "version": "0.1.0",
+  "description": "Independent agent answers, bounded debate, and auditable consensus locally or through GitHub Issues.",
+  "author": {
+    "name": "sufferfml",
+    "url": "https://github.com/sufferfml"
+  },
+  "homepage": "https://github.com/sufferfml/consensus",
+  "repository": "https://github.com/sufferfml/consensus",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Consensus",
+    "shortDescription": "Independent answers. Cross-review. Verifiable agreement.",
+    "longDescription": "Coordinate local Codex and Claude CLI participants or agents on different computers through GitHub Issues. Preserve independent initial answers, bounded rounds, explicit acceptance and unresolved conclusions.",
+    "developerName": "sufferfml",
+    "category": "Productivity",
+    "capabilities": ["Analysis", "Local", "GitHub", "Multi-agent"],
+    "defaultPrompt": [
+      "Have Codex and Claude independently answer this task, then debate and summarize.",
+      "Start a GitHub agent discussion for this task and return the Issue link.",
+      "Join or continue this GitHub consensus Issue."
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+name: Bug report / 问题报告
+description: Report a reproducible problem without private data.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened? / 发生了什么？
+      description: Include expected behavior and minimal reproduction steps.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / 环境
+      description: Plugin version, operating system, Python and CLI versions, and local or GitHub mode. Do not include keys or private gateway URLs.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence / 脱敏后的证据
+      description: Share only a minimal redacted error or synthetic example. Never paste whole real transcripts or CLI settings.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: I removed credentials, private task content and personal configuration.
+          required: true
